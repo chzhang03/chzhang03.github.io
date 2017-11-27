@@ -1,0 +1,205 @@
+/* this one is for the PHOTO page */
+
+body, html {
+	margin: 0px;
+	font-family: 'Dosis', sans-serif;
+	height: 100%;
+	width: 100%;
+	background-color: #FFF2CE;
+}
+
+
+#navbar img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+a {
+	color: #828282;
+	text-decoration: none;
+}
+
+a:hover {
+	font-weight: bold;
+	transition: 0.1s;
+}
+
+
+/* nav bar kicks in here */
+
+#navbar {
+	position: fixed;
+	height: 60px;
+	width: 100%;
+	background-color: #FFFFFF;
+	z-index: 100;
+}
+
+#logo {
+	width:45px;
+	float: left;
+	position: relative;
+	top: 15%;
+	left: 20px;
+	cursor: pointer;
+}
+
+.nav_button {
+	position: relative;
+	display: inline-block;
+	padding: 10px;
+	right: 5px;
+	top: 5px;
+	color: #828282;
+	cursor: pointer;
+	font-size: 24px;
+	float: right;
+	margin-right: 40px;
+}
+
+.nav_button:hover {
+	font-weight: bold;
+	color: #000000;
+}
+
+#welcome {
+	font-size: 20px;
+	position: relative; 
+	display: inline-block;
+	line-height: 60px;
+	margin-left: 35px;
+
+}
+
+#navbar_wrapper {
+	position: absolute;
+	left: 0;
+	height: 100%;
+	display: inline-block;
+	z-index: 10;
+	width: 100%;
+}
+
+#layer {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	position: absolute;
+}
+
+#background_image {
+	width: 100%;
+	height: 100%;
+	background-image: url("../img/yonsei.jpg");
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* content starts here */
+
+#city_display {
+	height: calc(100% - 60px);
+	width: 100%;
+	top: 60px;
+	position: relative;
+	display: inline-block;
+}
+
+.city_seoul {
+	height: 400px;
+	width: auto;
+	position: relative;
+	top: 15%;
+	left: 10%;
+	display: inline-block;
+}
+
+.photo-seoul {
+	width: 300px;
+	height: auto;
+	margin: 0 auto;
+	z-index: 30;
+	opacity: 1;
+}
+
+.text-seoul {
+	background-color: #828282;
+	color: white;
+	font-size: 24px;
+	padding: 10px 10px;
+	position: absolute;
+	top: 50%;
+	left: 20%;
+	opacity: 0;
+	z-index: 50;
+}
+
+.city_jeju {
+	height: 400px;
+	width: auto;
+	position: relative;
+	top: 15%;
+	left: 15%;
+	display: inline-block;
+}
+
+.photo-jeju {
+	width: 300px;
+	height: auto;
+	margin: 0 auto;
+	opacity: 1;
+}
+
+.text-jeju {
+	background-color: #828282;
+	color: white;
+	font-size: 24px;
+	padding: 10px 10px;
+	position: absolute;
+	top: 50%;
+	left: 10%;
+	opacity: 0;
+	z-index: 50;
+}
+
+.city_seattle {
+	height: 400px;
+	width: auto;
+	position: relative;
+	top: 15%;
+	left: 20%;
+	display: inline-block;
+}
+
+.photo-seattle {
+	width: 300px;
+	height: auto;
+	margin: 0 auto;
+	opacity: 1;
+}
+
+.text-seattle {
+	background-color: #828282;
+	color: white;
+	font-size: 24px;
+	padding: 10px 10px;
+	position: absolute;
+	top: 50%;
+	left: 20%;
+	opacity: 0;
+	z-index: 50;
+}
+
+
+
+
+
+
+
+
+

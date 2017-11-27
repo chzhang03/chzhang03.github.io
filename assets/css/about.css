@@ -1,0 +1,132 @@
+/* this one is for the ABOUT page */
+
+body, html {
+	margin: 0px;
+	font-family: 'Dosis', sans-serif;
+	height: 100%;
+	width: 100%;
+	background-color: #FFF2CE;
+}
+
+
+img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+a {
+	color: #828282;
+	text-decoration: none;
+}
+
+a:hover {
+	font-weight: bold;
+	transition: 0.1s;
+}
+
+
+/* nav bar kicks in here */
+
+#navbar {
+	position: fixed;
+	height: 60px;
+	width: 100%;
+	background-color: #FFFFFF;
+	z-index: 25;
+}
+
+#logo {
+	width:45px;
+	float: left;
+	position: relative;
+	top: 15%;
+	left: 20px;
+	cursor: pointer;
+}
+
+.nav_button {
+	position: relative;
+	display: inline-block;
+	padding: 10px;
+	right: 5px;
+	top: 5px;
+	color: #828282;
+	cursor: pointer;
+	font-size: 24px;
+	float: right;
+	margin-right: 40px;
+}
+
+.nav_button:hover {
+	font-weight: bold;
+	color: #000000;
+}
+
+#welcome {
+	font-size: 20px;
+	position: relative; 
+	display: inline-block;
+	line-height: 60px;
+	margin-left: 35px;
+
+}
+
+#navbar_wrapper {
+	position: absolute;
+	left: 0;
+	height: 100%;
+	display: inline-block;
+	z-index: 10;
+	width: 100%;
+}
+
+
+/* content here */
+#intro {
+	height: 100%;
+	width: 100%;
+	float: left;
+}
+
+#my_photo {
+	top: 150px;
+	left: 10%;
+	width: 300px;
+	float: left;
+	background-image: url("../img/my_photo.jpg");
+	display: inline-block;
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index: 1;
+}
+
+#text_wrapper {
+	top: 75px;
+	width: 70%;
+	margin-left: calc(10% + 340px);
+	float: left;
+	z-index: 10;
+	position: absolute;
+}
+
+#text1 {
+	top: 10px;
+	position: relative;
+	font-size: 64px;
+	font-weight: bold;
+}
+
+#text2 {
+	position: relative;
+	left: 0px;
+	width: 75%;
+	font-family: "Lato", Lato;
+	line-height: 1.4em;
+}
+
+#text1 p {
+	margin-bottom: 4;
+}
+

@@ -1,0 +1,192 @@
+/* this one is for the MUSIC_REC page */
+
+body, html {
+	margin: 0px;
+	font-family: 'Dosis', sans-serif;
+	height: 100%;
+	width: 100%;
+	background-color: #FFF2CE;
+}
+
+
+img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+a {
+	color: #828282;
+	text-decoration: none;
+}
+
+a:hover {
+	font-weight: bold;
+	transition: 0.1s;
+}
+
+
+/* nav bar kicks in here */
+
+#navbar {
+	position: fixed;
+	height: 60px;
+	width: 100%;
+	background-color: #FFFFFF;
+	z-index: 25;
+}
+
+#logo {
+	width:45px;
+	float: left;
+	position: relative;
+	top: 15%;
+	left: 20px;
+	cursor: pointer;
+}
+
+.nav_button {
+	position: relative;
+	display: inline-block;
+	padding: 10px;
+	right: 5px;
+	top: 5px;
+	color: #828282;
+	cursor: pointer;
+	font-size: 24px;
+	float: right;
+	margin-right: 40px;
+}
+
+.nav_button:hover {
+	font-weight: bold;
+	color: #000000;
+}
+
+#welcome {
+	font-size: 20px;
+	position: relative; 
+	display: inline-block;
+	line-height: 60px;
+	margin-left: 35px;
+
+}
+
+#navbar_wrapper {
+	position: absolute;
+	left: 0;
+	height: 100%;
+	display: inline-block;
+	z-index: 10;
+	width: 100%;
+}
+
+#layer {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	position: absolute;
+}
+
+#background_image {
+	width: 100%;
+	height: 100%;
+	background-image: url("../img/yonsei.jpg");
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* content here */
+#content {
+	height: 100%;
+	width: 100%;
+}
+
+/* selection buttons */
+
+#button_wrapper {
+	width: 100%;
+	height: 20px;
+	top: 15%;
+	position: relative;
+	display: inline-block;
+}
+
+.next {
+	border-style: solid;
+	border-color: #828282;
+	border-width: 2px;
+	font-size: 24px;
+	position: relative;
+	float: left;
+	padding: 10px 10px;
+	transform: translateY(-50%)
+	top: 0;
+	left: 40%;
+	z-index: 30;
+}
+
+/* video here */
+.song_rec {
+	display: inline-block;
+	margin-top: 100px;
+	height: 100%;
+	width: 50%;
+}
+
+.info {
+	position: relative;
+	top: 50px;
+	left: 35px;
+	display: inline-block;
+	height: 60%;
+}
+
+.title {
+	font-size: 48px;
+	color: black;
+	position: relative;
+	top: 55px;
+	left: 45px;
+}
+
+.singer {
+	font-size:30px;
+	color: black;
+	position: relative;
+	top: 70px;
+	left: 45px;
+	font-family: "Lato", Lato;
+}
+
+.lyrics {
+	font-size: 20px;
+	color: black;
+	position: relative;
+	top: 100px;
+	left: 45px;
+	font-family: "Lato", Lato;
+	line-height: 1.2em;
+}
+
+.video {
+	position: relative;
+	display: inline-block;
+	width: 600px;
+	margin-left: 80%;
+	margin-right: 10%;
+	top: -320px;
+}
+
+iframe {
+	height: 400px;
+	width: 600px;
+}
+
+
+.translation {
+	color: #828282;
+}
